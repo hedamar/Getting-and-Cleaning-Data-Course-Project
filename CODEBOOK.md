@@ -24,14 +24,14 @@ The final output of the script ("tidy.txt") includes 66 variables. Each variable
 These following features are separately obsered for the "X", "Y" and "Z" directions. So, for each of these features,
 the final data set contains SIX variables (X vs. Y vs. Z and mean() vs. std())
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
+tBodyAcc-XYZ (units: standard gravity units 'g')
+tGravityAcc-XYZ (units: standard gravity units 'g')
+tBodyAccJerk-XYZ (units: standard gravity units 'g')
+tBodyGyro-XYZ (units: radians/second)
+tBodyGyroJerk-XYZ (units: radians/second)
+fBodyAcc-XYZ (units: standard gravity units 'g')
+fBodyAccJerk-XYZ (units: standard gravity units 'g')
+fBodyGyro-XYZ (units: radians/second)
 
 8 features * 6 variables for each feature = 48 variables for these features
 
