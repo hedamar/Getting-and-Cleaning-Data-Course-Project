@@ -1,6 +1,6 @@
 library(dplyr)
 
-setwd("C:/Users/dama/Desktop/r_class/class2_data")
+# Set the appropriate working directory here: setwd(...)
 
 if(!file.exists("./UCI HAR Dataset")){stop("Error: Data not found")}
 
